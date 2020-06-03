@@ -1,0 +1,21 @@
+{
+  "name": "spe-landing-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Mi-silva/spe-landing-page.git",
+  "author": "Spe",
+  "collaborators": [
+    "Mirelle Silva <mirellepollyane@gmail.com>",
+    "Mariana Marques <marianadacunhamarques@gmail.com>",
+    "Mateus Garcia <mateusgarcpaiva@gmail.com>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {}
+}
