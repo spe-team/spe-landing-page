@@ -1,0 +1,68 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+/* header */
+header {
+    display: flex;
+    width: 100%;
+    height: 116px;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    width: 159px;
+    height: 83px;
+}
+
+/* intro section */
+#intro {
+    background: #3FE366 url(../img/banner_intro.png) no-repeat center center;
+    width: 100%;
+    height: 639px;
+}
+
+/* construção section */
+#construcao {
+    width: 100%;
+    height: 100vh;
+}
+
+#construcao img {
+    width: 1064px;
+    height: 598px;
+}
+
+#email input {
+    width: 401px;
+    height: 59px;
+    border: 4px solid #87FF7D;
+}
+
+#email button {
+    background-color: rgba(63, 227, 102, 0.97);
+    height: 49px;
+    width: 128px;
+    margin-left: 30px;
+    color: white;
+    font-weight: 600;   
+}
+
+/* telas-app section */
+#telas-app {
+    background-color: #3FE366;
+    height: 100vh;
+}
+
+/* Footer */
+footer {
+    background: #3FE366;
+    height: 52px;
+    color: white;
+}
